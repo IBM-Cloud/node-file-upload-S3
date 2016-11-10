@@ -40,7 +40,7 @@ Once your account is created you will need to create an S3 bucket under: https:/
     "bucket":"YOUR_BUCKET_NAME_HERE",
     "endpoint":"s3-api.us-geo.objectstorage.softlayer.net"
 }
-  ```
+```
 
 3. Edit the manifest.yml file.  Change the 'name' attribute to something unique.
 
