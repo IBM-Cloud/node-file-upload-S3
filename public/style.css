@@ -1,0 +1,16 @@
+body {
+    background-color: #dfe6eb;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #333;
+    text-align: center;
+    clear: both;
+}

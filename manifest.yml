@@ -1,0 +1,6 @@
+---
+applications:
+- name: node-file-upload-s3
+  command: node server.js
+  path: .
+  memory: 512M

@@ -1,0 +1,23 @@
+{
+  "name": "node-file-upload-S3",
+  "version": "0.0.0",
+  "dependencies": {
+    "cf-deployment-tracker-client": "*",
+    "cfenv": "^1.0.3",
+    "express": "~4.x",
+    "extend": "^3.0.0",
+    "s3": "^4.4.0",
+    "s3-lister": "^0.1.0",
+    "skipper": "^0.5.8",
+    "skipper-s3": "^0.5.6",
+    "underscore": "^1.8.3"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM-Bluemix/node-file-upload-S3.git"
+  }
+}
