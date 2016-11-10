@@ -34,12 +34,13 @@ Once your account is created you will need to create an S3 bucket under: https:/
 
 2. Open the file `s3-credentials.json` and enter your S3 authentication credentials.  You can find your authentication credentials by going to https://control.softlayer.com/storage/objectstorage then clicking the *"View Credentials"* link. 
 
-  ``` {
+  ``` 
+{
     "key":"YOUR_KEY_HERE",
     "secret":"YOUR_SECRET_HERE",
     "bucket":"YOUR_BUCKET_NAME_HERE",
     "endpoint":"s3-api.us-geo.objectstorage.softlayer.net"
-}
+}  
 ```
 
 3. Edit the manifest.yml file.  Change the 'name' attribute to something unique.
