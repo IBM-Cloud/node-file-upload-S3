@@ -57,7 +57,7 @@ Once your account is created you will need to create an S3 bucket under: https:/
 
 ### Privacy Notice
 
-The Personality Box sample web application includes code to track deployments to Bluemix and other Cloud Foundry platforms. The following information is sent to a [Deployment Tracker] [deploy_track_url] service on each deployment:
+The sample web application includes code to track deployments to Bluemix and other Cloud Foundry platforms. The following information is sent to a [Deployment Tracker] [deploy_track_url] service on each deployment:
 
 * Application Name (`application_name`)
 * Space ID (`space_id`)
@@ -68,6 +68,6 @@ This data is collected from the `VCAP_APPLICATION` environment variable in IBM B
 
 ### Disabling Deployment Tracking
 
-Deployment tracking can be disabled by removing `require("cf-deployment-tracker-client").track();` from the beginning of the `server.js` main server file.
+Deployment tracking can be disabled by removing `require("cf-deployment-tracker-client").track();` from the `server.js` main server file.
 
 [deploy_track_url]: https://github.com/cloudant-labs/deployment-tracker
