@@ -22,6 +22,13 @@ Be sure to select the **"Cloud Object Storage - S3 API"** option.
 
 Once your account is created you will need to create an S3 bucket under: https://control.softlayer.com/storage/objectstorage 
 
+### Prerequisites
+
+Make sure you have the Bluemix and CloudFoundry CLIs installed:
+
+1. http://clis.ng.bluemix.net/ui/home.html 
+2. https://github.com/cloudfoundry/cli/releases 
+
 ### Deploy Manually as follows:
 
 1. Clone the app (i.e. this repo)
